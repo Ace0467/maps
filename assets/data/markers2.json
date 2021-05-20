@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "nombre": "Tu juego +100",
+      "descripcion": "Tienda de videojuegos en el barrio porteño de Caballito.",
+      "lat": -34.61844641677669, 
+      "lng": -58.42878417229306,
+      "barrio": "Caballito"
+    },
+    {
+        "id": 2,
+        "nombre": "Soy Gamer Belgrano",
+        "descripcion": "Tienda de videojuegos en el barrio porteño de Belgrano.",
+        "lat": -34.56340837095397, 
+        "lng": -58.45709718705469,
+        "barrio": "Belgrano"
+      },
+      {
+        "id": 3,
+        "nombre": "CD Market Florida Games",
+        "descripcion": "Tienda de videojuegos en el barrio porteño de Monserrat.",
+        "lat": -34.60143754455841,  
+        "lng": -58.375188702229416,
+        "barrio": "Monserrat"
+      },
+      {
+        "id": 4,
+        "nombre": "Anywhere Tienda",
+        "descripcion": "Tienda de videojuegos en el barrio porteño de Palermo Hollywood.",
+        "lat": -34.58392542162421, 
+        "lng": -58.4429418047307,
+        "barrio": "Palermo Hollywood"
+      },
+      {
+        "id": 5,
+        "nombre": "CD Market Florida",
+        "descripcion": "Tienda de videojuegos en el barrio porteño de Palermo Hollywood.",
+        "lat": -34.62709888603107, 
+        "lng": -58.458526786712206,
+        "barrio": "Flores"
+      },
+      {
+        "id": 6,
+        "nombre": "Consolasdejuegos.com",
+        "descripcion": "Tienda de videojuegos en el barrio porteño de Agronomía.",
+        "lat": -34.592045577238515, 
+        "lng": -58.498722975894616,
+        "barrio": "Agronomía"
+      }
+]
