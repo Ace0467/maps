@@ -9,9 +9,9 @@
     <link href="assets/css/styles.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-    rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -21,20 +21,46 @@
     </div>
     <div id="menu">
         <ul>
-            <li class="handleFilter">Caballito</li>
-            <li class="handleFilter">Belgrano</li>
-            <li class="handleFilter">Monserrat</li>
-            <li class="handleFilter">Palermo Hollywood</li>
-            <li class="handleFilter">Flores</li>
-            <li class="handleFilter">Agronomía</li>
-            <li class="handleFilterReset">Reset filter</li>
+            <!-- <li class="handleFilter">Autodromo</li>
+            <li class="handleFilter">Circuito urbano</li>
+            <li class="handleFilterReset">Reset filter</li> -->
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Continente</button>
+                    <div class="dropdown-content">
+                        <a href="#" class="handleFilterType">Africa</a>
+                        <a href="#" class="handleFilterType">America</a>
+                        <a href="#" class="handleFilterType">Asia</a>
+                        <a href="#" class="handleFilterType">Europa</a>
+                        <a href="#" class="handleFilterType">Oceania</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Tipo de circuito</button>
+                    <div class="dropdown-content">
+                        <a href="#" class="handleFilter">Autodromo</a>
+                        <a href="#" class="handleFilter">Circuito urbano</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="dropbtn">Opciones</button>
+                    <div class="dropdown-content">
+                        <a href="#" class="handleFilterReset">Reset filter</a>
+                        <a href="admin.html" class="adminHTML">Configuración</a>
+                    </div>
+                </div>
+            </li>
         </ul>
     </div>
 
+    <script src="assets/js/mapStyles.js"></script>
+    <script src="assets/js/main2.js"></script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeWXseIVXxPlvpniACQWgThEdPBQE1wR8&callback=initMap"></script>
-        <script  src="assets/js/mapStyles.js"></script>
-        <script  src="assets/js/main2.js"></script>
 </body>
 
 </html>

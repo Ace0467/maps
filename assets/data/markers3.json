@@ -1,0 +1,233 @@
+[
+    {
+      "id": 1,
+      "nombre": "Circuito Internacional de Baréin",
+      "descripcion": "El Circuito Internacional de Baréin, más conocido como Sakhir, es un autódromo localizado en la ciudad de Manama, Baréin, sede actual del Gran Premio de Baréin de Fórmula 1.",
+      "lat": 26.032095069287084, 
+      "lng": 50.511494953795776,
+      "type": "Autodromo",
+      "img": "assets/img/1.jpg",
+      "continente": "Asia"
+    },
+    {
+        "id": 2,
+        "nombre": "Autodromo Enzo e Dino Ferrari",
+        "descripcion": "El Autodromo Enzo e Dino Ferrari es un autódromo de 4,9 km situado en Imola, región de Emilia-Romaña, Italia, unos 30 km al sureste de la ciudad de Bolonia.",
+        "lat": 44.34399705121756, 
+        "lng": 11.714307982148556,
+        "type": "Autodromo",
+        "img": "assets/img/2.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 3,
+        "nombre": "Autodromo Internacional do Algarve",
+        "descripcion": "El Autódromo Internacional do Algarve es un autódromo situado en Portimão, región de Algarve, Portugal. Se acabó de construir en octubre de 2008, con un coste de 195 millones de euros y fue inaugurado el 2 de noviembre de ese año coincidiendo con la celebración de la carrera final del Campeonato Mundial de Superbikes.",
+        "lat": 37.23203786620319,   
+        "lng": -8.628486735719441,
+        "type": "Autodromo",
+        "img": "assets/img/3.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 4,
+        "nombre": "Circuit de Barcelona-Catalunya",
+        "descripcion": "El Circuito de Barcelona-Cataluña, también conocido como Circuito de Montmeló o Circuito de Barcelona, es un autódromo situado en las poblaciones de Montmeló y Granollers, en la provincia de Barcelona, comunidad autónoma de Cataluña, España.",
+        "lat": 41.56875231976296, 
+        "lng": 2.2575155640183664,
+        "type": "Autodromo",
+        "img": "assets/img/4.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 5,
+        "nombre": "Circuit de Monaco",
+        "descripcion": "El Circuito de Mónaco, conocido también como Circuito de Monte Carlo, es un circuito urbano de carreras ubicado en el Principado de Mónaco que alberga el Gran Premio de Mónaco de Fórmula 1 y de Fórmula E. Fue fundado en 1920 por Antony Noghès.",
+        "lat": 43.73493885616994,  
+        "lng": 7.420440355137973,
+        "type": "Circuito urbano",
+        "img": "assets/img/5.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 6,
+        "nombre": "Circuito callejero de Bakú",
+        "descripcion": "El Circuito callejero de Bakú es un circuito urbano de carreras construido en la ciudad de Bakú, Azerbaiyán, en el Baku Boulevard.​ Acogió el Gran Premio de Europa de 2016 de Fórmula 1.",
+        "lat": 40.37391449387629,  
+        "lng": 49.85301880012659,
+        "type": "Circuito urbano",
+        "img": "assets/img/6.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 7,
+        "nombre": "Circuito Gilles Villeneuve",
+        "descripcion": "El Circuito Gilles Villeneuve, también llamado Circuito de Montreal, es un circuito urbano de carreras localizado en la Île Notre-Dame, una isla artificial situada en el río San Lorenzo y que es parte del Parque Jean-Drapeau de la ciudad de Montreal, provincia de Quebec, Canadá.",
+        "lat": 45.50222019583781, 
+        "lng": -73.5282057613729,
+        "type": "Circuito urbano",
+        "img": "assets/img/7.jpg",
+        "continente": "America"
+      },
+      {
+        "id": 8,
+        "nombre": "Circuito Paul Ricard",
+        "descripcion": "El Circuito Paul Ricard es un autódromo situado en Le Castellet en la región de Provenza-Alpes-Costa Azul, Francia. Durante años fue considerado el circuito más seguro de su época. El circuito tenía tres posibles trazados, un aeropuerto y una zona industrial.Tienda de videojuegos en el type porteño de Monserrat.",
+        "lat": 43.24907651139746,  
+        "lng": 5.788188980795557,
+        "type": "Autodromo",
+        "img": "assets/img/8.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 9,
+        "nombre": "Red Bull Ring",
+        "descripcion": "Red Bull Ring es un autódromo ubicado en la villa de Spielberg, cerca al poblado de Zeltweg, estado de Estiria, Austria, a unos 50 km al oeste de la ciudad de Graz. Ha recibido varios de los principales campeonatos mundiales y europeos de deporte motor.",
+        "lat": 47.22032499682729, 
+        "lng": 14.765137270602008,
+        "type": "Autodromo",
+        "img": "assets/img/9.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 10,
+        "nombre": "Circuito de Silverstone",
+        "descripcion": "El Circuito de Silverstone es un autódromo localizado en Silverstone condado de Northamptonshire en Inglaterra, Reino Unido a unos 20 km al sur de Northampton y 25 km al oeste de Milton Keynes. Parte del autódromo se halla en Northamptonshire y la restante en Buckinghamshire.",
+        "lat": 52.073439064215506, 
+        "lng": -1.0146419440328107,
+        "type": "Autodromo",
+        "img": "assets/img/10.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 11,
+        "nombre": "Hungaroring",
+        "descripcion": "Hungaroring es un autódromo localizado en Mogyoród, Hungría, a 30 kilómetros del centro de la ciudad de Budapest. La construcción del circuito empezó el 1 de octubre de 1985 y fue terminado en ocho meses.",
+        "lat": 47.582061294392595, 
+        "lng": 19.250506240049294,
+        "type": "Autodromo",
+        "img": "assets/img/11.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 12,
+        "nombre": "Circuito de Spa-Francorchamps",
+        "descripcion": "El Circuito de Spa-Francorchamps es un circuito de carreras situado cerca de las localidades de Spa, Francorchamps, Malmedy y Stavelot en la provincia de Lieja, Bélgica.",
+        "lat": 50.43714973496641, 
+        "lng": 5.972052726727625,
+        "type": "Autodromo",
+        "img": "assets/img/12.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 13,
+        "nombre": "Circuito de Zandvoort",
+        "descripcion": "El Circuito de Zandvoort, oficialmente Circuit Park Zandvoort, es un autódromo situado cerca de Zandvoort y Haarlem, Países Bajos, sobre el Mar del Norte, unos 15 km al oeste de la ciudad de Ámsterdam. El circuito fue diseñado por John Hugenholtz.",
+        "lat": 52.38787177875523,  
+        "lng": 4.544180611799849,
+        "type": "Autodromo",
+        "img": "assets/img/13.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 14,
+        "nombre": "Autodromo Nazionale di Monza",
+        "descripcion": "El Autodromo Nazionale di Monza es un autódromo situado en el parque de la villa real de Monza en las cercanías de Monza, región de Lombardía, Italia, unos 20 km al norte de la ciudad de Milán.",
+        "lat": 45.621911533832524, 
+        "lng": 9.284671252037766,
+        "type": "Autodromo",
+        "img": "assets/img/14.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 15,
+        "nombre": "Autódromo de Sochi - Сочи Автодром",
+        "descripcion": "El Autódromo de Sochi, anteriormente denominado Circuito del Parque Olímpico de Sochi es un circuito de carreras de Fórmula 1 de 5,8km construido en el Parque Olímpico del balneario de Sochi, Krai de Krasnodar, Rusia.​",
+        "lat": 43.410133165245455,  
+        "lng": 39.96898348265133,
+        "type": "Autodromo",
+        "img": "assets/img/15.jpg",
+        "continente": "Europa"
+      },
+      {
+        "id": 16,
+        "nombre": "Marina Bay",
+        "descripcion": "El circuito callejero de Marina Bay, oficialmente Marina Bay Street Circuit​ y también conocido como el circuito urbano de Singapur, es un circuito urbano de carreras que recibe al Gran Premio de Singapur de Fórmula 1 a partir de la temporada 2008, siendo así que entra a la lista de Grandes Premios de Fórmula 1.",
+        "lat": 1.2915491980294018, 
+        "lng": 103.86394908708962,
+        "type": "Circuito urbano",
+        "img": "assets/img/16.jpg",
+        "continente": "Asia"
+      },
+      {
+        "id": 17,
+        "nombre": "Circuito de Suzuka",
+        "descripcion": "El Circuito de Suzuka, oficialmente Suzuka International Racing Course, ​ es un autódromo localizado en Suzuka, en la prefectura de Mie, Japón, unos 60 km al suroeste de la ciudad de Nagoya. Ha sido sede del Gran Premio de Japón de Fórmula 1 desde el año 1987 hasta el año 2006 y desde 2009 en adelante.",
+        "lat": 34.84582996352336, 
+        "lng": 136.53893192746062,
+        "type": "Autodromo",
+        "img": "assets/img/17.jpg",
+        "continente": "Asia"
+      },
+      {
+        "id": 18,
+        "nombre": "Circuito de las Américas",
+        "descripcion": "El Circuito de las Américas​ es un circuito de carreras de 5.513 metros de extensión que se terminó de construir en el año 2012 en la ciudad texana de Austin, Estados Unidos.",
+        "lat": 30.134856552452447, 
+        "lng": -97.63580299946038,
+        "type": "Autodromo",
+        "img": "assets/img/18.jpg",
+        "continente": "America"
+      },
+      {
+        "id": 19,
+        "nombre": "Autódromo Hermanos Rodríguez",
+        "descripcion": "El Autódromo Hermanos Rodríguez es un autódromo ubicado en el macrocomplejo deportivo Ciudad Deportiva Magdalena Mixiuhca, en el oriente de la Ciudad de México, cerca del centro de la misma y a un par de kilómetros del aeropuerto.",
+        "lat": 19.40603586067701,
+        "lng": -99.09253769585084,
+        "type": "Autodromo",
+        "img": "assets/img/19.jpg",
+        "continente": "America"
+      },
+      {
+        "id": 20,
+        "nombre": "Autódromo José Carlos Pace - Interlagos",
+        "descripcion": "El Autódromo José Carlos Pace, también conocido como Interlagos, es un autódromo localizado en el barrio de Interlagos en los suburbios de São Paulo, Brasil. Ha sido sede de la mayoría de las ediciones del Gran Premio de Brasil de Fórmula 1, incluyendo todas desde 1990 hasta 2019.",
+        "lat": -23.700906122871487, 
+        "lng": -46.697907844178594, 
+        "type": "Autodromo",
+        "img": "assets/img/20.jpg",
+        "continente": "America"
+      },
+      {
+        "id": 21,
+        "nombre": "Circuito de Albert Park",
+        "descripcion": "El Circuito de Albert Park, también llamado Circuito de Melbourne, es un circuito urbano de carreras que se monta en los alrededores del lago Albert Park, al sur de la ciudad de Melbourne, Australia. Alberga anualmente desde 1996 el Gran Premio de Australia de Fórmula 1 y una fecha no puntuable de V8 Supercars.",
+        "lat": -37.849410156346565, 
+        "lng": 144.96882707816033,
+        "type": "Circuito urbano",
+        "img": "assets/img/21.jpg",
+        "continente": "Oceania"
+      },
+      {
+        "id": 22,
+        "nombre": "Yas Marina West Circuit",
+        "descripcion": "El Circuito Yas Marina es un circuito de carreras que se construyó en la Isla Yas, emirato de Abu Dabi, Emiratos Árabes Unidos para celebrar el Gran Premio de Abu Dabi de Fórmula 1 desde el año 2009.",
+        "lat": 24.471418476619323, 
+        "lng": 54.6030594268362,
+        "type": "Autodromo",
+        "img": "assets/img/22.jpg",
+        "continente": "Asia"
+      },
+      {
+        "id": 23,
+        "nombre": "Autódromo Oscar y Juan Gálvez",
+        "descripcion": "El Autódromo Oscar y Juan Gálvez, anteriormente Autódromo 17 de Octubre, Autódromo Municipal y Autódromo Oscar Alfredo Gálvez, es un autódromo ubicado en el barrio de Villa Riachuelo de la Ciudad de Buenos Aires, Argentina.",
+        "lat": -34.693240410546544, 
+        "lng": -58.45917703307586,
+        "type": "Autodromo",
+        "img": "assets/img/23.jpg",
+        "continente": "America"
+      }
+      
+]

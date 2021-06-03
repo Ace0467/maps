@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Sitios de Interés</title>
+    <link href="assets/css/styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="assets/css/F1-webfontkit/stylesheet.css" type="text/css" charset="utf-8" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="cont-all">
+        <h2 id="title">Calendario de la temporada 2021 de la Formula 1</h2>
+        <div class="cont-forms">
+            <a href="index.html" class="opt-admins">Maps</a>
+            <button id="nuevo" class="opt-admins">Nueva entrada</button>
+            <section id="forms">
+                <form id="myform">
+                    <label>Nombre del circuito</label>
+                    <input class="shrt-answer" type="text" placeholder="Name" name="nombre">
+                    <div class="gender">
+                        <label>Continente</label>
+                        <select class="gender" name="continente">
+                            <option value="def" selected hidden>...</option>
+                            <option value="Africa">Africa</option>
+                            <option value="America">America</option>
+                            <option value="Asia">Asia</option>
+                            <option value="Europa">Europa</option>
+                            <option value="Oceania">Oceania</option>
+                        </select>
+                        <label>Tipo</label>
+                        <select class="gender" name="tipo">
+                            <option value="def" selected hidden>...</option>
+                            <option value="Autodromo">Autodromo</option>
+                            <option value="Circuito urbano">Circuito urbano</option>
+                        </select>
+                    </div>
+                    <label>Latitud</label>
+                    <input type="number" class="shrt-answer" type="text" placeholder="Latitud..." name="longitud">
+                    <label>Longitud</label>
+                    <input type="number" class="shrt-answer" type="text" placeholder="Longitud..." name="latitud">
+                    <input type="submit" value="Submit">
+                </form>
+                <p class="respuesta_form"></p>
+            </section>
+        </div>
+        <!-- <div class="contenedor">
+        <div class="cont_collapsible">
+            <button class="collapsible">Open Collapsible</button>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex
+                    ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button>Editar</button>
+            <button>Eliminar</button>
+        </div>
+    </div> -->
+    </div>
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
+  integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
+  crossorigin="anonymous"></script>
+<script src="assets/js/main_admin.js"></script>
+
+</html>

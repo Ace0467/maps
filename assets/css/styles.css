@@ -1,4 +1,6 @@
-body{padding: 0; font-family: 'Titillium Web', sans-serif!important;}
+html{background-color: #222!important;}
+
+body{padding: 0; font-family: 'Formula1 Display'!important; background-color: #222;}
 
 #map{
 
@@ -7,8 +9,201 @@ body{padding: 0; font-family: 'Titillium Web', sans-serif!important;}
 
 }
 
+.cont-options{display: block;}
+
 #menu{position: absolute; z-index: 1000; top: 0; width: 100%; padding: 2%; /*background-color: rgba(0, 0, 0, 0.3);*/ background-color: #222; text-align: center;}
 
 #menu ul{display: flex; text-align: center; margin: 0 auto;}
 
-#menu ul li{color: white; font-size: 1.25em; margin: 0.5em auto;}
+#menu ul li{color: white; font-size: 1.25em; margin: auto;}
+
+#menu ul li:hover{cursor: pointer;}
+
+.handleFilterReset:hover{background-color: rgb(66, 66, 66); color: rgb(163, 163, 163); transition: 0.3s;}
+
+.info_wrapper{font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.info_wrapper h2{font-weight: bold; font-size: 1.25em;}
+.info_wrapper div{width: 50%; margin:0 auto;}
+.info_wrapper img{width: 100%;}
+
+.info_wrapper h3{font-style: italic!important;}
+
+#title{color: white; font-size: 2.5em; font-weight: 500; margin: 2% 2% 0 2%;}
+
+.collapsible {background-color: #ff0026; color: white; cursor: pointer; padding: 1em; width: 100%; border: none; text-align: left; outline: none; font-size: 1.25em; font-family: 'Formula1 Display'!important; border-top-left-radius: 1em; border-top-right-radius: 1em; font-weight: 500;}
+ 
+.opt-admins {margin: 2%; background-color: #0400ff; color: white; cursor: pointer; padding: 1em; border: none; text-align: left; outline: none; font-size: 1.25em; font-family: 'Formula1 Display'!important; border-radius: 1em; font-weight: 500; transition: 0.3s;}
+
+.opt-admins:hover {background-color: #ffee00; color: black;}
+
+/* .capsule {background-color: #777; color: white; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font-size: 15px;} */
+
+.active, .collapsible:hover {background-color: #a70019;}
+  
+.content {padding: 0 18px; max-height: 0; overflow: hidden; transition: max-height 0.2s ease-out; background-color: #f1f1f1;}
+
+.content div {width: 50%; margin: 0 auto}
+
+.content div, .content p {margin-top: 1%; margin-bottom: 1%;}
+
+.content h3 {font-style: italic;}
+
+.contenedor {display: flex; margin: 2%;}
+
+.cont_collapsible {width: 80%;}
+
+.cont-all h2{margin: 2%; font-size: 2em; font-weight: 500; color: white;}
+
+.buttons {display: flex; margin: 0 auto; align-items: baseline!important;}
+
+.buttons button {margin: 1em 1em 0 auto; background-color: #ff0026; color: white; cursor: pointer; padding: 0.5em; border: none; text-align: left; outline: none; font-size: 1em; font-family: 'Formula1 Display'!important; border-radius: 1em;}
+
+label{
+    
+    font-size: 1.5em;
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 75%;
+    background-color: transparent;
+  
+  }
+  
+  .gender {
+    width: 100%;
+    padding: 0.5em;
+    margin: 1.5em auto;
+    border-radius: 0.5em;
+    background-color: #222222;
+    color: white;
+  }
+
+  input{
+      width: 75%;
+      height: 2em;
+      background-color: #222222;
+      font-size: 1em;
+      color: #ffffff;
+      border-width: 1px;
+      border-color: #242528;
+    }
+    
+  
+  input[type="submit"] {
+    font-family: 'Formula1 Display'!important;
+    width: 12em;
+    background-color: #222222;
+    border-radius: 1em;
+    color: white;
+    margin-top: 3%;
+    font-weight: 500;
+  }
+
+  textarea{
+      min-height: 25%;
+      min-width: 75%;
+      width: 100%;
+      height: 12em;
+      resize: vertical;
+      background-color: #222222;
+      font-size: 1em;
+      color: #ffffff;
+      border-width: 1px;
+      border-color: #242528;
+    }
+  
+  #comms{
+    font-size: 2em;
+    color: white;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 75%;
+    background-color: transparent;
+  }
+  
+  form {
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  #forms {
+    padding: 3%;
+    background-color: #181819;
+    display: none;
+  }
+  
+  .shrt-answer{
+  
+    width: 99%;
+    padding: 0.5em;
+    margin: 1.5em auto;
+    border-radius: 0.75em;
+    background-color: #222222;
+    color: white;
+  
+  }
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #222;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  transition: 0.3s;
+  font-family: 'Formula1 Display'!important;
+  font-size: 1em; 
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  color: white; 
+  margin: 0.5em auto;
+  position: relative;
+  display: block!important;
+  background-color: #222;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222!important;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  transition: 0.3s;
+  animation: growDown 625ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(66, 66, 66); color: rgb(163, 163, 163);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(66, 66, 66);}
+
+@keyframes growDown {
+  0% {
+    transform: rotateX(-90deg)
+  }
+  70% {
+    transform: rotateX(20deg)
+  }
+  100% {
+    transform: rotateX(0deg)
+  }
+}
