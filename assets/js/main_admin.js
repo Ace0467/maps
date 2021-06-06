@@ -26,7 +26,7 @@ const fetchData = async (marker) => {
             </div>
             </div>
             `
-            const $contenedor = document.querySelector('#cont-all');
+            const $contenedor = document.querySelector('#listado');
             $contenedor.innerHTML += contentString;
 
             var i;
@@ -79,7 +79,7 @@ $(document).ready(function () {
     $("#myform").validate({
 
         rules: {
-            nombre: {
+            "nombre": {
                 required: true
             },
             "tipo": {
@@ -127,23 +127,3 @@ $(document).ready(function () {
 
 });
 
-
-
-
-{/* <div class="contenedor">
-        <div class="cont_collapsible">
-            <button class="collapsible">Open Collapsible</button>
-            <div class="content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex
-                    ea commodo consequat.</p>
-            </div>
-        </div>
-        <div class="buttons">
-            <button>Editar</button>
-            <button>Eliminar</button>
-        </div>
-    </div> */}
